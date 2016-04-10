@@ -51,6 +51,12 @@ $('#square1, #square2, #square3, #square4, #square5, #square6, #square7, #square
   }
 });
 
+// Event listener placed on the button to start a new game
+
+$('#startGameButton').click(function(){
+  document.location.reload();
+});
+
 
 
 
