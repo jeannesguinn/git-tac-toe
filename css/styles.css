@@ -1,0 +1,59 @@
+.titleBar{
+  background-color: grey;
+  height:50px;
+}
+
+.playerCol{
+  background-color: mediumTurquoise;
+  height: 650px;
+  text-align: center;
+}
+
+#logoTitleBar{
+  background-color: lightblue;
+  text-align: center;
+  height: 50px;
+}
+
+#gridbox{
+  background-color: aliceblue;
+  text-align: center;
+}
+
+#main{
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#footer{
+  background-color: lightblue;
+  text-align: center;
+  height: 50px;
+}
+
+#gameboardTable{
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  padding: 5px;
+  height:600px;
+}
+
+.tblCol{
+  background-color: mediumTurquoise;
+  border-style: double;
+  border-color: black;
+  border-width: 1px;
+  height: 200px;
+}
+
+.lftSB{
+  background-color: grey;
+  border: solid 2px black;
+}
+
+#Player1Button{
+  margin-bottom :5px;
+}

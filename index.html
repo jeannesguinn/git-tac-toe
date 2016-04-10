@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+<!--Title Bar with Logo Center-->
+<div class="row" id="logoTitleBar">
+  <div class="columns large-4">left top</div>
+  <div class="columns large-4">add logo here</div>
+  <div class="columns large-4">right top</div>
+</div>
+
+<!-- Add in navigation here-->
+
+
+<!--Main Section with player1,gameboard and player2 columns-->
+<div class="row" id="gridbox">
+  <div class="columns large-2 playerCol">Player 1
+    <div class="row">
+      <button type="button" class="small button secondary" id="Player1Button">Player 1</button>
+    </div>
+  </div>
+  <div class="columns large-8" id="main">
+    <h3>Your turn, Player <span id="currentPlayer">1</span>! Click on an open square!</h3>
+    <table id="gameboardTable">
+      <button type="button" class="small button secondary" id="startGameButton">Start New Game</button>
+      <tr class="tblRow" id="tblRow1">
+        <td class="tblCol" id="square1"></td>
+        <td class="tblCol" id="square2"></td>
+        <td class="tblCol" id="square3"></td>
+      </tr>
+      <tr class="tblRow" id="tblRow2">
+        <td class="tblCol" id="square4"></td>
+        <td class="tblCol" id="square5"></td>
+        <td class="tblCol" id="square6"></td>
+      </tr>
+      <tr class="tblRow" id="tblRow3">
+        <td class="tblCol" id="square7"></td>
+        <td class="tblCol" id="square8"></td>
+        <td class="tblCol" id="square9"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="columns large-2 playerCol">Player 2
+      <div class="row">
+        <button type="button" class="small button secondary" id="Player2Button">Player 2</button>
+      </div>
+  </div>
+</div>
+
+<!-- footer div-->
+
+<div class="row" id="footer">
+  <div class="columns large-4">footer left</div>
+  <div class="columns large-4">footer center
+    <!--add a footer nav here-->
+  </div>
+  <div class="columns large-4">footer right</div>
+</div>
+
+
+
+
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
