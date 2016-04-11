@@ -1,3 +1,20 @@
+body{
+
+  background-image: url("bluehexbg.png");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+
+
+}
+
+
+
+.decoFont{
+  font-family: 'Limelight', cursive;
+  font-size: 48px;
+  color: white;
+}
+
 .titleBar{
   background-color: grey;
   height:50px;
@@ -5,23 +22,35 @@
 
 .playerCol{
   background-color: mediumTurquoise;
-  height: 650px;
+  height: 600px;
   text-align: center;
 }
 
 #logoTitleBar{
-  background-color: lightblue;
+
+  background-color: mediumturquoise;
+  opacity: 50%;
   text-align: center;
-  height: 50px;
+  height: 75px;
+
+}
+
+#tic-tac-logo{
+  text-align: center;
+  color: white;
+  font-family: 'Limelight', cursive;
+  font-size: 48px;
+  margin-top: 5px;
+
 }
 
 #gridbox{
-  background-color: aliceblue;
   text-align: center;
 }
 
+
 #main{
-  background-color: aliceblue;
+
   text-align: center;
   font-size: 24px;
   font-weight: bold;
@@ -34,19 +63,20 @@
 }
 
 #gameboardTable{
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 5px;
   padding: 5px;
   height:600px;
 }
 
 .tblCol{
   background-color: mediumTurquoise;
-  border-style: double;
-  border-color: black;
-  border-width: 1px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 2px;
   height: 200px;
+  width: 200px;
 }
 
 .lftSB{

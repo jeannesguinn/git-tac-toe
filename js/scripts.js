@@ -1,3 +1,4 @@
+
 // Set currentPlayer to 1 on page load
 // when start game button is clicked, an alert pops up to tell player 1 to select a square
 
@@ -42,9 +43,11 @@ $('#square1, #square2, #square3, #square4, #square5, #square6, #square7, #square
     if (player == 1){
         switchPlayer();
         makeMove($(this),"X");
+        checkforWin();
     }else{
       switchPlayer();
       makeMove($(this),"O");
+      checkforWin();
     }
   }else{
     alert("You can't move here");
@@ -85,45 +88,66 @@ function checkforWin(){
     var win = false;
   //check for win
 
-  if (square1 == square2 && square2 == square3){
+  if (square1 == square2 && square2 == square3) {
+    if (square1 != ""){
     alert("Player " + winner + " Wins!");
     alert("topRow");
     win = true;
+  };
 
   }else if(square4 == square5 && square5 == square6){
+    if(square4 != ""){
     alert("Player " + winner + " Wins!");
     alert("Middle Row");
     win = true;
+    };
 
   }else if(square7 == square8 && square8 == square9){
-    alert("Player " + winner + " Wins!");
-    alert("Bottom Row");
-    win = true;
+    if(square7 != ''){
+      alert("Player " + winner + " Wins!");
+      alert("Bottom Row");
+      win = true;
+      };
+
 
   }else if (square1 == square4 && square4 == square7){
-    alert("Player " + winner + " Wins!");
-    alert("First Column");
-    win = true;
+    if(square7 != ''){
+      alert("Player " + winner + " Wins!");
+      alert("First Column");
+      win = true;
+    };
+
 
     }else if (square2 == square5 && square5 == square8){
-      alert("Player " + winner + " Wins!");
+      if(square8 != ''){
+        alert("Player " + winner + " Wins!");
       alert("Second Column");
       win = true;
+      };
+
 
     }else if(square3 == square6 && square6 == square9){
-      alert("Player " + winner + " Wins!");
-      alert("Third Column");
-      win = true;
+      if(square3 != ''){
+        alert("Player " + winner + " Wins!");
+        alert("Third Column");
+        win = true;
+      };
+
 
     }else if(square1 == square5 && square5 == square9){
-      alert("Player " + winner + " Wins!");
-      alert("Diagonal 1");
-      win = true;
+      if(square5 != ''){
+        alert("Player " + winner + " Wins!");
+        alert("Diagonal 1");
+        win = true;
+      };
+
 
     }else if(square3 == square5 && square5 == square7){
+      if(square7 != ''){
       alert("Player " + winner + " Wins!");
       alert("Diagonal 2");
       win = true;
+     }
     };
 
     if(win !== true && numSquaresClicked == 9){
