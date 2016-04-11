@@ -10,14 +10,13 @@ body{
 
 
 #tic-tacky-toe{
-    text-align: center;
-    color: white;
+    /* text-align: center; */
+    color: #00BCD4;
     font-family: 'Limelight', cursive;
     font-size: 46px;
     margin: 0 auto;
     height: 100px;
     padding-top: 2%;
-    padding-left: 18%;
 }
 
 #startGameButton{
@@ -35,7 +34,7 @@ body{
 
 .titleBar{
   background-color: grey;
-  height:50px;
+  height:25%;
 }
 
 
@@ -142,7 +141,7 @@ body{
 
 #startGameButton{
     background-color: salmon;
-    padding-right: 120px;
+    /*padding-right: 120px;*/
     /* margin-right: 50px; */
     text-indent: 100px;
 }
