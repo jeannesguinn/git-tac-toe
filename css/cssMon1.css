@@ -10,14 +10,7 @@ body{
 
 
 #tic-tacky-toe{
-    text-align: center;
-    color: white;
-    font-family: 'Limelight', cursive;
-    font-size: 46px;
-    margin: 0 auto;
-    height: 100px;
-    padding-top: 2%;
-    padding-left: 18%;
+  margin-left: 50px;
 }
 
 #startGameButton{
@@ -135,23 +128,11 @@ body{
 }
 
 
-#buttonDiv{
-    padding-top: 2%;
-}
-
-
-#startGameButton{
-    background-color: salmon;
-    padding-right: 120px;
-    /* margin-right: 50px; */
-    text-indent: 100px;
-}
-
 #main{
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 5%;
+  margin:0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:
 }
 
 #footer{
@@ -160,27 +141,15 @@ body{
   height: 50px;
 }
 
-.hideTxt{
-  color:mediumTurquoise;
-}
-
 #gameboardTable{
-    margin: 0 auto;
+    margin:0 auto;
     border-style: double;
     border-color: salmon;
     border-width: 30px;
     padding: 5px;
     position: absolute;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-}
-
-#billboard{
-    background-color: rgba(128, 128, 128, 0.41);
-    padding-right: 15%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    width: 600px;
+    height: 600px;
 }
 
 .tblCol{
